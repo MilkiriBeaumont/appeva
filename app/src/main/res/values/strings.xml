@@ -21,11 +21,11 @@
     <string name="cuidad">Cuidad</string>
     <string name="nombrehotelohostal">Nombre Hotel o Hostal</string>
     <string name="registrar">Crear hotel</string>
-    <string name="btnRegistrarh">Registrarhotel</string>
-    <string name="btnRegistrarl">Registrarturistico</string>
-    <string name="btnRegistrarlu">Registrarlugar</string>
-    <string name="btnRegistrarr">Registrarrestaurante</string>
-    <string name="btnRegistrarp">Registrarpaquete</string>
+    <string name="btnRegistrarh">Registrar hotel</string>
+    <string name="btnRegistrarl">Registrar turistico</string>
+    <string name="btnRegistrarlu">Registrar lugar</string>
+    <string name="btnRegistrarr">Registrar restaurante</string>
+    <string name="btnRegistrarp">Registrar paquete</string>
     <string name="registrarr">Crear restaurante</string>
     <string name="registrarlug">Crear lugar</string>
     <string name="registrarp">Crear paquete</string>

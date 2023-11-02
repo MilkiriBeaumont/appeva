@@ -13,86 +13,87 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="28dp"
         android:text="Bienvenidos a Trasporte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="26dp"
-        android:layout_marginEnd="176dp"
         android:text="Colectivo"
+        app:layout_constraintBottom_toBottomOf="@+id/auto2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/auto2"
-        app:layout_constraintTop_toTopOf="@+id/auto2" />
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/auto2"
+        app:layout_constraintVertical_bias="0.321" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="11dp"
-        android:layout_marginEnd="203dp"
         android:text="Uber"
+        app:layout_constraintBottom_toBottomOf="@+id/auto1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/auto1"
-        app:layout_constraintTop_toTopOf="@+id/auto1" />
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="@+id/auto1"
+        app:layout_constraintTop_toTopOf="@+id/auto1"
+        app:layout_constraintVertical_bias="0.165" />
 
     <TextView
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="188dp"
         android:text="Buses"
+        app:layout_constraintBottom_toBottomOf="@+id/bus"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/bus"
-        app:layout_constraintTop_toTopOf="@+id/bus" />
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bus"
+        app:layout_constraintVertical_bias="0.252" />
 
     <ImageButton
         android:id="@+id/bus"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginEnd="21dp"
-        android:layout_marginBottom="193dp"
+        android:layout_width="136dp"
+        android:layout_height="134dp"
         android:scaleType="centerInside"
         android:src="@drawable/captura_de_pantalla_2023_10_25_034128"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/textView17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/auto2" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.693" />
 
     <ImageButton
         android:id="@+id/auto1"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="79dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="19dp"
+        android:layout_width="142dp"
+        android:layout_height="134dp"
         android:scaleType="centerInside"
         android:src="@drawable/captura_de_pantalla_2023_10_25_034119"
-        app:layout_constraintBottom_toTopOf="@+id/auto2"
-        app:layout_constraintEnd_toStartOf="@+id/textView16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122" />
 
     <ImageButton
         android:id="@+id/auto2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="13dp"
-        android:layout_marginBottom="37dp"
+        android:layout_width="148dp"
+        android:layout_height="134dp"
         android:scaleType="centerInside"
         android:src="@drawable/captura_de_pantalla_2023_10_25_034057"
-        app:layout_constraintBottom_toTopOf="@+id/bus"
-        app:layout_constraintEnd_toStartOf="@+id/textView15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/auto1" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

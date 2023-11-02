@@ -6,23 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".Registrarlugarturistico">
 
-    <EditText
-        android:id="@+id/etCorreo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="118dp" />
-
     <TextView
         android:id="@+id/textView35"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
         android:text="Nombre del lugar turistico"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="410dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
 
     <EditText
         android:id="@+id/eTuristico"
@@ -40,8 +46,10 @@
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
         android:text="@string/correo"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="84dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="135dp" />
 
     <TextView
         android:id="@+id/textView37"
@@ -49,14 +57,53 @@
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
         android:text="@string/contrasena"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="175dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="148dp"
+        android:onClick="registrar"
+        android:paddingLeft="10dp"
+        android:text="@string/btnRegistrarl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="@string/contrasenia2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="388dp" />
 
     <EditText
-        android:id="@+id/etPassword"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="84dp"
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="411dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="407dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="textPassword"
         android:paddingLeft="10dp"
@@ -66,10 +113,10 @@
         app:layout_constraintTop_toBottomOf="@+id/textView37" />
 
     <EditText
-        android:id="@+id/etPassword2"
-        android:layout_width="409dp"
-        android:layout_height="92dp"
-        android:layout_marginTop="48dp"
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="407dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="36dp"
         android:ems="10"
         android:inputType="textPassword"
         android:paddingLeft="10dp"
@@ -77,24 +124,5 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView38" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="registrar"
-        android:paddingLeft="10dp"
-        android:text="@string/btnRegistrarl"
-        tools:layout_editor_absoluteX="123dp"
-        tools:layout_editor_absoluteY="460dp" />
-
-    <TextView
-        android:id="@+id/textView38"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingLeft="10dp"
-        android:text="@string/contrasenia2"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="293dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

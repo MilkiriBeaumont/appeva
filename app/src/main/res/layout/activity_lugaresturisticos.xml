@@ -10,96 +10,98 @@
         android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="114dp"
-        android:layout_marginTop="22dp"
-        android:layout_marginEnd="114dp"
         android:text="@string/lugaresturisticos"
-        app:layout_constraintEnd_toEndOf="@+id/textView27"
-        app:layout_constraintStart_toStartOf="@+id/Turistico2"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
 
     <TextView
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="61dp"
         android:text="Bahía Inglesa"
+        app:layout_constraintBottom_toBottomOf="@+id/Turistico1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Turistico2"
-        app:layout_constraintTop_toTopOf="@+id/Turistico2" />
+        app:layout_constraintHorizontal_bias="0.694"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Turistico1"
+        app:layout_constraintVertical_bias="0.397" />
 
     <TextView
         android:id="@+id/textView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="66dp"
-        android:layout_marginEnd="52dp"
         android:text="Desierto Florido"
+        app:layout_constraintBottom_toBottomOf="@+id/Turistico2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Turistico3"
-        app:layout_constraintTop_toTopOf="@+id/Turistico3" />
+        app:layout_constraintHorizontal_bias="0.704"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Turistico2"
+        app:layout_constraintVertical_bias="0.403" />
 
     <TextView
         android:id="@+id/textView29"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="86dp"
-        android:layout_marginBottom="62dp"
         android:text="Parque Alliyay "
-        app:layout_constraintBottom_toBottomOf="@+id/Turistico1"
+        app:layout_constraintBottom_toBottomOf="@+id/Turistico3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Turistico1" />
+        app:layout_constraintHorizontal_bias="0.711"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Turistico3"
+        app:layout_constraintVertical_bias="0.354" />
 
     <ImageButton
         android:id="@+id/Turistico1"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginEnd="14dp"
-        android:layout_marginBottom="140dp"
+        android:layout_width="186dp"
+        android:layout_height="160dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/textView29"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Turistico3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.784"
         app:srcCompat="@drawable/captura_de_pantalla_2023_10_25_201354" />
 
     <ImageButton
         android:id="@+id/Turistico2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="7dp"
-        android:layout_marginTop="78dp"
-        android:layout_marginEnd="47dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="203dp"
+        android:layout_height="148dp"
         android:scaleType="centerInside"
-        app:layout_constraintBottom_toTopOf="@+id/Turistico3"
-        app:layout_constraintEnd_toStartOf="@+id/textView27"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106"
         app:srcCompat="@drawable/captura_de_pantalla_2023_10_25_201454" />
 
     <ImageButton
         android:id="@+id/Turistico3"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="57dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="182dp"
+        android:layout_height="160dp"
         android:scaleType="centerInside"
-        app:layout_constraintBottom_toTopOf="@+id/Turistico1"
-        app:layout_constraintEnd_toStartOf="@+id/textView28"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Turistico2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423"
         app:srcCompat="@drawable/captura_de_pantalla_2023_10_25_201526" />
 
     <TextView
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
         android:clickable="true"
         android:text="@string/btnRegistrarl"
-        tools:layout_editor_absoluteX="207dp"
-        tools:layout_editor_absoluteY="606dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.819"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
