@@ -42,4 +42,8 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, RegistrarCuenta.class);
         startActivity(i);
     }
+    public void eliminarElemento(View v){
+        Intent i = new Intent(this, RegistrarCuenta.class);
+        startActivity(i);
+    }
 }

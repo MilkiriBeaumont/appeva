@@ -104,4 +104,13 @@
         android:onClick="registrar"
         android:paddingLeft="10dp"
         android:text="@string/btnRegistrar" />
+
+    <!-- activity_main.xml -->
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:onClick="eliminarElemento" />
+
 </LinearLayout>

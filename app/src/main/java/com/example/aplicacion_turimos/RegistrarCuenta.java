@@ -61,6 +61,12 @@ public class RegistrarCuenta extends AppCompatActivity {
         // Agregar el nuevo usuario a Firestore
         agregarUsuarioFirestore(nuevoUsuario);
     }
+    public void eliminarElemento() {
+        // Aquí es donde implementarás la lógica para eliminar el elemento
+        // Puedes mostrar un mensaje de confirmación aquí también.
+        Toast.makeText(this, "Elemento eliminado", Toast.LENGTH_SHORT).show();
+    }
+
 
         private void agregarUsuarioFirestore(usuario usuario) {
             // Obtener una referencia a la colección "usuario" (debes crearla previamente en Firestore)
@@ -95,6 +101,9 @@ public class RegistrarCuenta extends AppCompatActivity {
                         // Manejo de errores
                         Toast.makeText(this, "Registro fallido: " + e.getMessage(), Toast.LENGTH_SHORT).show();
                     });
+
+
+
 
         }}
 
